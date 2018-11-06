@@ -1,0 +1,93 @@
+body {
+  background: rgb(200,200,200);
+
+    height: auto;
+    font-family: Share Tech Mono, Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    padding: 10% 10% 10% 10%;
+
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+h1 {
+    font-size: 6em;
+     line-height: 0;
+}
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    line-height: normal;
+}
+
+.navi {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-family: Helvetica, Arial, sans-serif;
+  background: rgb(43,117,233);
+  background: linear-gradient(90deg, rgba(43,117,233,1) 55%, rgba(0,212,255,0.3659664549413515) 100%);
+  width:100%;
+  border-radius: 0ex;
+  padding:0px;
+  text-align: center;
+}
+
+.block1{
+
+  text-shadow: .5px .5px .5px #565656;
+  width:100%;
+  text-align: center;
+  font-family: 'Helvetica';font-size: 15px;
+   color: white;
+   padding: 0px 0px;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 0px 0px;
+}
+.block2{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: white;
+  text-shadow: .25px .25px .25px black;
+  width:100%;
+  text-align: left;
+  padding: 05px 05px;
+  text-decoration: none;
+  display: inline-grid;
+  border-radius: 0px 0px;
+  padding:30 30 30 30;
+}
+.block2:hover{
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+a:link, a:visited{
+   text-shadow: 2px 2px 4px #666666;
+   color: white;
+   padding: 14px 25px;
+   text-decoration: none;
+   display: inline-block;
+   border:0;
+   border-radius: 4px;
+}
+ a:hover{
+  text-shadow: 2px 2px 4px #333333;
+  text-decoration: none;
+}
+.navi ul{
+  margin:0;
+  padding:0;
+}
+.navi li{
+  float:center;
+  display:inline;
+  padding:0 0 0 0;
+}
+.social{
+  width:100%;
+}
